@@ -1,0 +1,10 @@
+{
+  "generator-react-app": {
+    "package": "true",
+    "react": "true",
+    "webpack": "true",
+    "test": "true",
+    "styles": "true",
+    "docker": "true"
+  }
+}
