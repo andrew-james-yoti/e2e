@@ -7,6 +7,6 @@ describe('content page', () => {
           }
       });
       await contentLink.click();
-      expect( (await (browser.react$('Content'))).isDisplayed().toBe(true));
+      expect(await (await browser.react$('Content')).isDisplayed()).toBe(true);
   });
 });
