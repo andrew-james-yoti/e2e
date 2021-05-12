@@ -19,6 +19,7 @@ When(
   }
 );
 
+//if you want the test to fail, you could cange the assertion. 
 Then(
   "I should be on the content page", async () => {
     expect(await ContentPage.getContentText()).to.contain("Lorem");
