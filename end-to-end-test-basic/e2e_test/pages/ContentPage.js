@@ -9,7 +9,6 @@ function ContentPage() {
    */
   this.getContentText = async () => {
     const text = await (await (contentText)).getText();
-    console.log("THIS IS the text", text)
     return text;
   };
 }
